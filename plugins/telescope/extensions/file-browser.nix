@@ -232,9 +232,11 @@ telescopeHelpers.mkExtension {
   };
 
   settingsExample = {
-    file_browser = {
-      theme = "ivy";
-      hijack_netrw = true;
+    file-browser = {
+      settings = {
+        theme = "ivy";
+        hijack_netrw = true;
+      };
     };
   };
 }
